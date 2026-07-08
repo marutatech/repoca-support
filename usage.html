@@ -1,55 +1,21 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Repoca 使い方ガイド</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
-      background: #f6f6f8;
-      color: #222;
-      line-height: 1.8;
-    }
-    .container {
-      max-width: 760px;
-      margin: 0 auto;
-      padding: 32px 20px;
-    }
-    .card {
-      background: #fff;
-      border-radius: 18px;
-      padding: 24px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
-    }
-    h1 {
-      margin-top: 0;
-      font-size: 26px;
-    }
-    h2 {
-      margin-top: 28px;
-      font-size: 20px;
-    }
-    a {
-      color: #111;
-      font-weight: 700;
-    }
-    .footer {
-      margin-top: 28px;
-      color: #777;
-      font-size: 13px;
-      text-align: center;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="container">
-    <section class="card">
+  <div class="page">
+    <header class="site-header">
+      <p class="site-title">Repoca サポート</p>
+      <p class="site-subtitle"><a href="index.html">サポートトップ</a></p>
+    </header>
+
+    <main class="content">
       <h1>Repoca 使い方ガイド</h1>
-      <p>
-        Repocaは、作業完了報告書の作成、写真撮影、PDF出力をサポートするアプリです。
-      </p>
+      <p class="lead">Repocaは、作業完了報告書の作成、写真撮影、PDF出力をサポートするアプリです。</p>
 
       <h2>基本の流れ</h2>
       <ol>
@@ -62,18 +28,59 @@
       </ol>
 
       <h2>下書き保存</h2>
-      <p>
-        作成途中の報告書は下書きとして保存できます。現場作業中に中断する場合も、後から再開できます。
-      </p>
+      <p>作成途中の報告書は下書きとして保存できます。現場作業中に中断する場合も、後から再開できます。</p>
 
       <h2>作成済み報告書</h2>
+      <p>作成済みの報告書は一覧から確認し、必要に応じて再共有できます。</p>
+
+      <h2>1. 施工会社情報を登録する</h2>
       <p>
-        作成済みの報告書は一覧から確認し、必要に応じて再共有できます。
+        初回利用時は、設定画面から報告書に表示する施工会社情報（会社名・住所・連絡先など）を登録してください。
+        報告書作成前に情報が未登録の場合は、登録を促す画面が表示されます。
       </p>
 
-      <p><a href="./index.html">サポートトップへ戻る</a></p>
-    </section>
-    <p class="footer">提供：株式会社ダイセイ / marutatech</p>
-  </main>
+      <h2>2. 報告書を作成する</h2>
+      <p>
+        ホーム画面の「報告書作成」から新規作成を選び、テンプレートと物件情報（施設名・住所・顧客名など）を入力します。
+        1件目の報告書は無料で作成できます。2件目以降の新規作成には、Repoca月額プランへの登録が必要です。
+      </p>
+
+      <h2>3. 写真を撮影する</h2>
+      <p>
+        作業場所ごとに、施工前・施工中・施工後の写真を撮影します。
+        撮影した写真は端末内に保存され、報告書に組み込まれます。
+        作業場所の追加・並べ替え・メモ入力も可能です。
+      </p>
+
+      <h2>4. 内容を確認する</h2>
+      <p>
+        入力内容と写真をプレビュー画面で確認し、必要に応じて修正します。
+        作業日や報告日などの情報もこの段階で確認・編集できます。
+      </p>
+
+      <h2>5. PDF・Excelを出力する</h2>
+      <p>
+        内容の確認後、PDFまたはExcel形式で出力できます。
+        出力したファイルは端末に保存したり、共有機能を使って他のアプリへ送ることができます。
+      </p>
+
+      <h2>6. 保存済み報告書を確認する</h2>
+      <p>
+        ホーム画面の「保存済み報告書」から、完成した報告書の一覧を確認できます。
+        保存済みの報告書は、内容の閲覧・PDF/Excelの再出力・共有が可能です。
+      </p>
+
+      <h2>サブスクリプションについて</h2>
+      <p>
+        Repoca月額プラン（月額300円・初回1か月無料）に登録すると、2件目以降の報告書も継続して作成できます。
+        詳細は<a href="terms.html">利用規約</a>およびアプリ内の「サブスクリプションについて」をご確認ください。
+      </p>
+    </main>
+
+    <footer class="site-footer">
+      <p><a href="index.html">サポートトップへ戻る</a></p>
+      <p>提供：株式会社ダイセイ / marutatech</p>
+    </footer>
+  </div>
 </body>
 </html>

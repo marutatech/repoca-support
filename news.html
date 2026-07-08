@@ -1,77 +1,36 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Repoca お知らせ・更新情報</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
-      background: #f6f6f8;
-      color: #222;
-      line-height: 1.8;
-    }
-    .container {
-      max-width: 760px;
-      margin: 0 auto;
-      padding: 32px 20px;
-    }
-    .card {
-      background: #fff;
-      border-radius: 18px;
-      padding: 24px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.06);
-    }
-    h1 {
-      margin-top: 0;
-      font-size: 26px;
-    }
-    article {
-      border-top: 1px solid #e5e5e5;
-      padding-top: 18px;
-      margin-top: 18px;
-    }
-    time {
-      color: #777;
-      font-size: 14px;
-    }
-    h2 {
-      font-size: 20px;
-      margin: 6px 0 8px;
-    }
-    a {
-      color: #111;
-      font-weight: 700;
-    }
-    .footer {
-      margin-top: 28px;
-      color: #777;
-      font-size: 13px;
-      text-align: center;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="container">
-    <section class="card">
-      <h1>Repoca お知らせ・更新情報</h1>
-      <p>
-        Repocaに関する更新情報、不具合情報、仕様変更などをこちらに掲載します。
-      </p>
+  <div class="page">
+    <header class="site-header">
+      <p class="site-title">Repoca サポート</p>
+      <p class="site-subtitle"><a href="index.html">サポートトップ</a></p>
+    </header>
 
-      <article>
-        <time>2026年7月</time>
+    <main class="content">
+      <h1>Repoca お知らせ・更新情報</h1>
+      <p class="lead">Repocaに関する更新情報、不具合情報、仕様変更などをこちらに掲載します。</p>
+
+      <article class="news-article">
+        <time datetime="2026-07">2026年7月</time>
         <h2>Repocaベータ版を準備中です</h2>
         <p>
           現在、正式リリースに向けてベータ版の確認を進めています。
           使い方や更新情報は、このページで順次ご案内します。
         </p>
       </article>
+    </main>
 
-      <p><a href="./index.html">サポートトップへ戻る</a></p>
-    </section>
-    <p class="footer">提供：株式会社ダイセイ / marutatech</p>
-  </main>
+    <footer class="site-footer">
+      <p><a href="index.html">サポートトップへ戻る</a></p>
+      <p>提供：株式会社ダイセイ / marutatech</p>
+    </footer>
+  </div>
 </body>
 </html>
