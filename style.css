@@ -97,6 +97,182 @@ a:hover {
   font-size: 0.9375rem;
 }
 
+.page-wide {
+  max-width: 920px;
+}
+
+.guide {
+  color: #222222;
+}
+
+.guide-hero {
+  margin-bottom: 22px;
+  padding: 22px 0 4px;
+}
+
+.eyebrow {
+  margin: 0 0 8px;
+  color: #666666;
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+
+.quick-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 30px;
+  padding-bottom: 22px;
+  border-bottom: 1px solid #e5e5ea;
+}
+
+.quick-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 38px;
+  padding: 7px 12px;
+  border: 1px solid #d8d8de;
+  border-radius: 999px;
+  color: #222222;
+  background: #ffffff;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.guide-section {
+  margin: 0 0 36px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.feature-item {
+  min-height: 124px;
+  padding: 16px;
+  border: 1px solid #e5e5ea;
+  border-radius: 8px;
+  background: #f9f9fb;
+}
+
+.feature-item h3,
+.step-list h3,
+.flow-list h3 {
+  margin-top: 0;
+  color: #111111;
+}
+
+.feature-item p {
+  margin-bottom: 0;
+}
+
+.step-list,
+.flow-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.step-list li,
+.flow-list li {
+  margin-bottom: 14px;
+  padding: 16px;
+  border: 1px solid #e5e5ea;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.step-list li {
+  display: flex;
+  gap: 14px;
+}
+
+.step-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 30px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #ffffff;
+  background: #222222;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.note-box {
+  margin: 16px 0 0;
+  padding: 13px 14px;
+  border: 1px solid #d8d8de;
+  border-radius: 8px;
+  background: #f2f2f7;
+  color: #333333;
+  font-size: 0.9375rem;
+}
+
+.guide-table {
+  width: 100%;
+  margin: 12px 0 4px;
+  border-collapse: collapse;
+  font-size: 0.9375rem;
+}
+
+.guide-table th,
+.guide-table td {
+  padding: 10px;
+  border: 1px solid #e5e5ea;
+  text-align: left;
+  vertical-align: top;
+}
+
+.guide-table th {
+  color: #111111;
+  background: #f9f9fb;
+  font-weight: 600;
+}
+
+.check-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.check-list li {
+  position: relative;
+  padding-left: 1.5em;
+}
+
+.check-list li::before {
+  content: '✓';
+  position: absolute;
+  left: 0;
+  color: #1f7a3f;
+  font-weight: 700;
+}
+
+.faq-list {
+  margin: 0;
+}
+
+.faq-list dt {
+  margin: 18px 0 6px;
+  color: #111111;
+  font-weight: 600;
+}
+
+.faq-list dt:first-child {
+  margin-top: 0;
+}
+
+.faq-list dd {
+  margin: 0 0 12px;
+  color: #333333;
+}
+
 .draft-notice {
   margin: 0 0 24px;
   padding: 12px 14px;
@@ -197,6 +373,34 @@ a:hover {
 @media (max-width: 480px) {
   .page {
     padding: 20px 16px 40px;
+  }
+
+  .guide-hero {
+    padding-top: 8px;
+  }
+
+  .quick-links {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .quick-links a {
+    justify-content: center;
+    border-radius: 8px;
+  }
+
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .step-list li {
+    padding: 14px;
+  }
+
+  .guide-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
   }
 
   .legal-table th,
