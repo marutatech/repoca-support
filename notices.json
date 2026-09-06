@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "notices": [
+    {
+      "id": "2026-09-display-test-001",
+      "date": "2026-09-06",
+      "title": "お知らせ表示テスト",
+      "body": "Homeお知らせフィードの表示確認用です。正式なアップデート告知ではありません。",
+      "type": "info",
+      "platform": "all"
+    },
+    {
+      "id": "2026-09-display-test-002",
+      "date": "2026-09-05",
+      "title": "お知らせ表示テスト（2件目）",
+      "body": "最大3件表示・NEW・既読の確認用です。",
+      "type": "info",
+      "platform": "all"
+    },
+    {
+      "id": "2026-09-display-test-003",
+      "date": "2026-09-04",
+      "title": "お知らせ表示テスト（3件目）",
+      "body": "Home枠に表示される想定のテスト件です。",
+      "type": "info",
+      "platform": "all"
+    }
+  ]
+}
