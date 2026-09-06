@@ -420,3 +420,15 @@ a:hover {
     padding-bottom: 16px;
   }
 }
+
+
+/* notices.json driven feed (news.html) */
+.notices-status { margin: 16px 0 0; color: #666666; }
+.notices-status-error { color: #666666; }
+.notice-item:first-of-type { border-top: none; padding-top: 8px; }
+.notice-type { margin: 0 0 6px; font-size: 0.8125rem; font-weight: 600; color: #8e8e93; }
+.notice-body { white-space: pre-wrap; }
+.notice-platform { margin: 0 0 12px; font-size: 0.8125rem; color: #8e8e93; }
+.notice-actions { display: flex; flex-wrap: wrap; gap: 12px 16px; margin-top: 12px; }
+.notice-actions a { font-size: 0.9375rem; font-weight: 500; }
+

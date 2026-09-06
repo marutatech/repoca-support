@@ -5,7 +5,7 @@
       "id": "2026-09-display-test-001",
       "date": "2026-09-06",
       "title": "お知らせ表示テスト",
-      "body": "Homeお知らせフィードの表示確認用です。正式なアップデート告知ではありません。",
+      "body": "Home・詳細・Web news.html の共通確認用です。正式なアップデート告知ではありません。",
       "type": "info",
       "platform": "all"
     },
@@ -18,12 +18,28 @@
       "platform": "all"
     },
     {
-      "id": "2026-09-display-test-003",
+      "id": "2026-09-display-test-partner",
       "date": "2026-09-04",
-      "title": "お知らせ表示テスト（3件目）",
-      "body": "Home枠に表示される想定のテスト件です。",
-      "type": "info",
-      "platform": "all"
+      "title": "お知らせ表示テスト（メーカー案内）",
+      "body": "type: partner と externalLink の確認用です。正式なメーカー告知ではありません。",
+      "type": "partner",
+      "platform": "all",
+      "externalLink": {
+        "label": "サポートトップを見る",
+        "url": "https://marutatech.github.io/repoca-support/"
+      }
+    },
+    {
+      "id": "2026-09-display-test-update",
+      "date": "2026-09-03",
+      "title": "お知らせ表示テスト（ストアリンク）",
+      "body": "type: update と storeLinks の確認用です。正式なアップデート告知ではありません。",
+      "type": "update",
+      "platform": "all",
+      "storeLinks": {
+        "ios": "https://apps.apple.com/app/id6789023940",
+        "android": "https://play.google.com/store/apps/details?id=jp.co.daisei.repoca"
+      }
     }
   ]
 }
