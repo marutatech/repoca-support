@@ -2,6 +2,18 @@
   "version": 1,
   "notices": [
     {
+      "id": "2026-10-16-001",
+      "date": "2026-10-16",
+      "title": "バージョン1.1.1を公開しました",
+      "body": "Repocaをバージョン1.1.1にアップデートしました。\n本アップデートにより、サブスクリプション登録に関する不具合を修正しました。旧バージョンで登録時にエラーが発生する場合は、アプリを最新バージョンへアップデートしたうえで、再度登録をお試しください。",
+      "type": "update",
+      "platform": "all",
+      "storeLinks": {
+        "ios": "https://apps.apple.com/app/id6789023940",
+        "android": "https://play.google.com/store/apps/details?id=jp.co.daisei.repoca"
+      }
+    },
+    {
       "id": "2026-10-15-001",
       "date": "2026-10-15",
       "title": "サブスクリプション登録の不具合について",
